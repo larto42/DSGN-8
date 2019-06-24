@@ -1,0 +1,14 @@
+header {
+	display: flex;
+	justify-content: space-between;
+	padding: 8px 14px;
+	align-items: center;
+}
+
+header h2 {
+	font-weight: 300;
+	font-size: 1.2em;
+	padding: 4px 13px 4px 11px;
+	border: 1px solid #f34739;
+	border-radius: 20px 0px 20px 20px;
+}

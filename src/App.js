@@ -1,9 +1,9 @@
 import React from "react";
 import "./App.css";
 import "@fortawesome/fontawesome-free/css/all.css";
-import Header from "./components/Header.jsx";
-import Slider from "./components/Slider.jsx";
-import Stats from "./components/Stats.jsx";
+import Header from "./components/Header/Header.jsx";
+import Slider from "./components/Slider/Slider.jsx";
+import Stats from "./components/Stats/Stats.jsx";
 import Card from "./components/Card";
 import Section from "./components/Section.jsx";
 import Gallery from "./components/Gallery";

@@ -1,0 +1,71 @@
+.slider {
+	position: relative;
+	height: 28em;
+	color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.slider-bg {
+	background: url("https://images.unsplash.com/photo-1544006659-f0b21884ce1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80")
+		no-repeat;
+	background-size: auto;
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+.slider-bg::after {
+	content: "";
+	height: 100%;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.4);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.slider p {
+	font-size: 1.6em;
+	font-weight: 300;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+}
+
+.slider p::before,
+.slider p::after {
+	content: "";
+	height: 1px;
+	width: 28%;
+	background: #ffffffa2;
+}
+
+.slider h2 {
+	font-size: 3rem;
+	font-weight: 500;
+}
+
+.slider button {
+	background: transparent;
+	border: 2px solid white;
+	padding: 4px 25px;
+	border-radius: 20px;
+	color: white;
+	margin: 25px;
+}
+.show-more-wrapper {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.show-more-wrapper span:first-child {
+	margin-bottom: -3px;
+}

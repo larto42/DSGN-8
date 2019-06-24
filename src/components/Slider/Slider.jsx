@@ -1,4 +1,5 @@
 import React from "react";
+import "./Slider.css";
 
 const Slider = () => {
 	return (
@@ -6,10 +7,11 @@ const Slider = () => {
 			<p>Need our help?</p>
 			<h2>TOP DESIGNERS</h2>
 			<button>CHECK US!</button>
-			<img
-				src="https://images.unsplash.com/photo-1544006659-f0b21884ce1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
-				alt=""
-			/>
+			<div className="show-more-wrapper">
+				<span class="lnr lnr-chevron-down" />
+				<span class="lnr lnr-chevron-down" />
+			</div>
+			<div className="slider-bg" />
 		</div>
 	);
 };
