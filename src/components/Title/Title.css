@@ -1,0 +1,28 @@
+.title {
+	width: 100%;
+}
+
+.title__main-title {
+	font-size: 3rem;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.title__subtitle {
+	font-size: 1.4em;
+	font-weight: 300;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	padding: 0 1em;
+}
+
+.title__subtitle__line {
+	height: 1px;
+	background: #ffffffa2;
+	flex-grow: 1;
+}
+
+.title__subtitle__text {
+	padding: 0 1em;
+}

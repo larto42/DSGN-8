@@ -1,11 +1,12 @@
 import React from "react";
 import SectionImage from "./SectionImage.jsx";
 import PropTypes from "prop-types";
+import "./Section.css";
 
 const Section = props => {
 	const { children, image, bigText, smallText } = props;
 	return (
-		<div>
+		<div className="section">
 			<SectionImage image={image} bigText={bigText} smallText={smallText} />
 			{children}
 		</div>

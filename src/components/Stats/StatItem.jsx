@@ -1,6 +1,5 @@
 import PropTypes from "prop-types";
 import React from "react";
-import { withStyles } from "@bit/mui-org.material-ui.styles";
 import CircularProgress from "@bit/mui-org.material-ui.circular-progress";
 
 const StateItem = props => {

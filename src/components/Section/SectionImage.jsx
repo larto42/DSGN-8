@@ -1,14 +1,14 @@
 import PropTypes from "prop-types";
 import React from "react";
+import Title from "../Title/Title";
 
 const SectionImage = props => {
 	const { smallText, bigText, image } = props;
 	return (
-		<div>
-			<div>
-				<span>{smallText}</span>
-				<h3>{bigText}</h3>
-				<img src={image} alt="" />
+		<div className="section-image" style={{ backgroundImage: `url(${image})` }}>
+			<div className="section-image__backdrop" />
+			<div className="section-image__text">
+				<Title smallText={smallText} bigText={bigText} />
 			</div>
 		</div>
 	);

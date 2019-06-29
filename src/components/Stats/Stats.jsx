@@ -7,19 +7,19 @@ const Stats = () => {
 		<div className="stats">
 			<StatItem
 				className="projects-stat"
-				title="BIG PROJECTS"
+				title="Big projects"
 				number={50}
 				description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, fugit?"
 			/>
 			<StatItem
 				className="client-stat"
-				title="CLIENTS"
+				title="Clients"
 				number={35}
 				description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, nihil!"
 			/>
 			<StatItem
 				className="month-stat"
-				title="MONTHS"
+				title="Months"
 				number={80}
 				description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, dolores."
 			/>
