@@ -1,0 +1,27 @@
+.logo-gallery {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.logo-gallery__image-cont {
+	width: 33.33334vw;
+	height: 33.33334vw;
+	border: 1px solid rgb(247, 247, 247);
+	padding: 3em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo-gallery__image-cont__image {
+	max-width: 100%;
+	max-height: 100%;
+	filter: saturate(0);
+	opacity: 0.25;
+	transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.logo-gallery__image-cont__image:hover {
+	transform: scale(1.2);
+	opacity: 0.6;
+}

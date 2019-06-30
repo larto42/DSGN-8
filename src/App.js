@@ -7,8 +7,8 @@ import Stats from "./components/Stats/Stats.jsx";
 import Card from "./components/Card/Card";
 import Section from "./components/Section/Section.jsx";
 import Gallery from "./components/Gallery/Gallery";
-import BrandLogo from "./components/BrandLogo";
-import Footer from "./components/Footer";
+import BrandGallery from "./components/BrandGallery/BrandGallery";
+import Footer from "./components/Footer/Footer";
 
 function App() {
 	return (
@@ -58,18 +58,7 @@ function App() {
 				bigText="Brands"
 				smallText="We work for"
 			>
-				<BrandLogo image="https://via.placeholder.com/150" />
-				<BrandLogo image="https://via.placeholder.com/150" />
-				<BrandLogo image="https://via.placeholder.com/150" />
-				<BrandLogo image="https://via.placeholder.com/150" />
-				<BrandLogo image="https://via.placeholder.com/150" />
-				<BrandLogo image="https://via.placeholder.com/150" />
-				<BrandLogo image="https://via.placeholder.com/150" />
-				<BrandLogo image="https://via.placeholder.com/150" />
-				<BrandLogo image="https://via.placeholder.com/150" />
-				<BrandLogo image="https://via.placeholder.com/150" />
-				<BrandLogo image="https://via.placeholder.com/150" />
-				<BrandLogo image="https://via.placeholder.com/150" />
+				<BrandGallery />
 			</Section>
 
 			<Footer />
