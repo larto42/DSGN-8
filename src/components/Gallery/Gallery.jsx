@@ -70,14 +70,15 @@ class Gallery extends Component {
 		return (
 			<div className="gallery">
 				{this.state.images.map(img => (
-					<figure
-						className="gallery__image"
-						style={{ backgroundImage: `url(${img.url})` }}
-						alt=""
-						key={img.id}
-					>
+					<div className="gallery__image-wrapper">
+						<figure
+							className="gallery__image"
+							style={{ backgroundImage: `url(${img.url})` }}
+							alt=""
+							key={img.id}
+						/>
 						<span className="gallery__image__eye-icon lnr lnr-eye" />
-					</figure>
+					</div>
 				))}
 			</div>
 		);

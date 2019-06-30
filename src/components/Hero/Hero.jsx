@@ -6,12 +6,12 @@ const Hero = () => {
 	return (
 		<div className="hero">
 			<Title smallText="Need our help?" bigText="Top designers" />
-			<button>Check us!</button>
-			<div className="show-more-wrapper">
-				<span className="lnr lnr-chevron-down" />
-				<span className="lnr lnr-chevron-down" />
+			<button className="hero__goto-action">Check us!</button>
+			<div className="hero__show-more">
+				<span className="hero__show-more__icon lnr lnr-chevron-down" />
+				<span className="hero__show-more__icon lnr lnr-chevron-down" />
 			</div>
-			<div className="hero-bg" />
+			<div className="hero__background-image" />
 		</div>
 	);
 };
