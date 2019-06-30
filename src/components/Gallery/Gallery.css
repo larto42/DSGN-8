@@ -1,0 +1,33 @@
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.gallery__image {
+	width: 33vw;
+	height: 33vw;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	filter: saturate(0);
+	transition: filter 0.15s ease-in-out;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.gallery__image:hover {
+	filter: saturate(1);
+}
+
+.gallery__image__eye-icon {
+	font-size: 13vw;
+	color: white;
+	opacity: 0;
+	transition: opacity 0.25s ease-in-out;
+}
+
+.gallery__image:hover .gallery__image__eye-icon {
+	opacity: 1;
+}

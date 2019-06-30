@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./Gallery.css";
 
 class Gallery extends Component {
 	state = {
@@ -67,9 +68,16 @@ class Gallery extends Component {
 	};
 	render() {
 		return (
-			<div>
+			<div className="gallery">
 				{this.state.images.map(img => (
-					<img src={img.url} alt="" key={img.id} />
+					<figure
+						className="gallery__image"
+						style={{ backgroundImage: `url(${img.url})` }}
+						alt=""
+						key={img.id}
+					>
+						<span className="gallery__image__eye-icon lnr lnr-eye" />
+					</figure>
 				))}
 			</div>
 		);

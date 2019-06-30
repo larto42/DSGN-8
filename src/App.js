@@ -6,7 +6,7 @@ import Hero from "./components/Hero/Hero.jsx";
 import Stats from "./components/Stats/Stats.jsx";
 import Card from "./components/Card/Card";
 import Section from "./components/Section/Section.jsx";
-import Gallery from "./components/Gallery";
+import Gallery from "./components/Gallery/Gallery";
 import BrandLogo from "./components/BrandLogo";
 import Footer from "./components/Footer";
 

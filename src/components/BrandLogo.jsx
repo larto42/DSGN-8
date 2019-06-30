@@ -4,8 +4,8 @@ import React from "react";
 const BrandLogo = props => {
 	const { image } = props;
 	return (
-		<div>
-			<img src={image} alt="" />
+		<div className="logo">
+			<img className="logo__image" src={image} alt="" />
 		</div>
 	);
 };
