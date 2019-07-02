@@ -4,16 +4,16 @@ import "./Card.css";
 
 const Card = ({ image, title, subTitle, description }) => {
 	return (
-		<div className="card">
+		<div className="card content-wrapper">
 			<div className="card__description">
-				<div className="card__top-border">
+				<div className="card__first-part-border">
 					<h3 className="card__description__title"> {title} </h3>
 					<span className="card__description__subtitle"> {subTitle} </span>
 					<p className="card__description__desc"> {description} </p>
 				</div>
 			</div>
 			<div className="card__image" style={{ backgroundImage: `url(${image})` }}>
-				<div className="card__bottom-border" />
+				<div className="card__second-part-border" />
 			</div>
 		</div>
 	);

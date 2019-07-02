@@ -1,14 +1,42 @@
-header {
+.header {
 	display: flex;
 	justify-content: space-between;
 	padding: 8px 14px;
 	align-items: center;
 }
 
-header h2 {
+.header__logo {
 	font-weight: 300;
 	font-size: 1.2em;
 	padding: 4px 13px 4px 11px;
 	border: 1px solid #f34739;
 	border-radius: 20px 0px 20px 20px;
+	width: 6em;
+}
+
+.header__social-icons {
+	display: none;
+}
+
+@media screen and (min-width: 768px) {
+	.header {
+		/* display: grid; */
+		/* grid-template-columns: 1fr 2fr 7fr 2fr 1fr; */
+	}
+
+	.header__logo {
+		grid-column-start: 2;
+	}
+
+	.header__logo-icons {
+		display: grid;
+		/* grid-template-columns: 3fr 5fr 1fr; */
+	}
+
+	.header__social-icons {
+		grid-column: 3;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+	}
 }

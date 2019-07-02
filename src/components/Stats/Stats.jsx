@@ -4,7 +4,7 @@ import "./Stats.css";
 
 const Stats = () => {
 	return (
-		<div className="stats">
+		<div className="stats content-wrapper">
 			<StatItem
 				className="projects-stat"
 				title="Big projects"

@@ -33,3 +33,14 @@
 	background: rgba(0, 0, 0, 0.3);
 	z-index: -1;
 }
+
+@media screen and (min-width: 768px) {
+	.section-image {
+		display: grid;
+		grid-template-columns: 1fr minmax(auto, 70em) 1fr;
+	}
+
+	.section-image__text {
+		grid-column: 2;
+	}
+}

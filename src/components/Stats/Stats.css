@@ -51,3 +51,13 @@
 	color: #6e6e6e;
 	text-transform: uppercase;
 }
+
+@media screen and (min-width: 768px) {
+	.stats {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+	}
+	.stat-wrapper {
+		position: relative;
+	}
+}

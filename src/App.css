@@ -1,3 +1,23 @@
 .App {
 	text-align: center;
 }
+
+@media screen and (min-width: 768px) {
+	.App {
+		display: grid;
+		grid-template-columns: 1fr minmax(auto, 70em) 1fr;
+	}
+
+	.grid {
+		display: grid;
+		grid-template-columns: 1fr minmax(auto, 70em) 1fr;
+	}
+
+	.content-wrapper {
+		grid-column: 2;
+	}
+
+	.content-wrapper.grid-span-all {
+		grid-column: 1/4;
+	}
+}

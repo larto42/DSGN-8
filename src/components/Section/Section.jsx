@@ -6,9 +6,9 @@ import "./Section.css";
 const Section = props => {
 	const { children, image, bigText, smallText } = props;
 	return (
-		<div className="section">
+		<div className="section content-wrapper  grid-span-all">
 			<SectionImage image={image} bigText={bigText} smallText={smallText} />
-			{children}
+			<div className="grid">{children}</div>
 		</div>
 	);
 };

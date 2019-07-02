@@ -4,7 +4,7 @@ import Title from "../Title/Title";
 
 const Hero = () => {
 	return (
-		<div className="hero">
+		<div className="hero content-wrapper grid-span-all">
 			<Title smallText="Need our help?" bigText="Top designers" />
 			<button className="hero__goto-action">Check us!</button>
 			<div className="hero__show-more">
