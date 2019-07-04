@@ -52,7 +52,7 @@ class BrandGallery extends Component {
 	};
 	render() {
 		return (
-			<div className="logo-gallery">
+			<div className="logo-gallery content-wrapper">
 				{this.state.images.map(img => (
 					<div className="logo-gallery__image-cont">
 						<img

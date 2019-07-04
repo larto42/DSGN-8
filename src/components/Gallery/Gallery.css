@@ -40,3 +40,20 @@
 .gallery__image-wrapper:hover .gallery__image__eye-icon {
 	opacity: 1;
 }
+
+@media (min-width: 768px) {
+	.gallery {
+		display: grid;
+		grid-template-columns: repeat(6, 1fr);
+		grid-column: 1/4;
+	}
+
+	.gallery__image-wrapper {
+		width: 100%;
+		height: calc(100vw / 6);
+	}
+
+	.gallery__image__eye-icon {
+		font-size: 8vw;
+	}
+}

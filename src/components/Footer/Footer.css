@@ -27,3 +27,27 @@
 	line-height: 2em;
 	font-size: 1.1em;
 }
+
+.copyright {
+	padding-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+	.footer {
+		display: grid;
+		grid-template-columns: 1fr minmax(auto, 70em) 1fr;
+	}
+
+	.footer__wrapper {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	.footer__section {
+		padding: 3em 4em;
+		width: 100%;
+	}
+
+	.copyright {
+		grid-column: 2;
+	}
+}

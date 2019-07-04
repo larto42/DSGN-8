@@ -8,6 +8,7 @@
 	width: 100%;
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center center;
 	z-index: 0;
 }
 
@@ -38,6 +39,7 @@
 	.section-image {
 		display: grid;
 		grid-template-columns: 1fr minmax(auto, 70em) 1fr;
+		height: 20em;
 	}
 
 	.section-image__text {

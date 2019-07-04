@@ -25,3 +25,15 @@
 	transform: scale(1.2);
 	opacity: 0.6;
 }
+
+@media (min-width: 768px) {
+	.logo-gallery {
+		display: grid;
+		grid-template-columns: repeat(6, 1fr);
+	}
+
+	.logo-gallery__image-cont {
+		width: auto;
+		height: auto;
+	}
+}

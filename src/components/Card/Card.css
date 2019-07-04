@@ -75,10 +75,16 @@
 	border-top: none;
 }
 
-@media screen and (min-width: 768px) {
+@media (min-width: 768px) {
 	.card {
 		display: flex;
-		height: 18em;
+		height: 24em;
+	}
+
+	.card__first-part-border {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
 	}
 
 	.card:nth-child(2n) {
@@ -142,6 +148,13 @@
 	}
 
 	.card__description__title {
-		margin-top: 0.5em;
+		margin-top: 0;
+	}
+}
+
+@media (min-width: 1090px) {
+	.card {
+		width: 120%;
+		margin-left: -10%;
 	}
 }
