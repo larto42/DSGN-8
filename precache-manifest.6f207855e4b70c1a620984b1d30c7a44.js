@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fe0f748c4ea7e562a4226f4481aa0592",
+    "revision": "5a15c2747004cc3816e1c3f0aca06a82",
     "url": "/DSGN-8/index.html"
   },
   {
-    "revision": "2d085e8f47c5dd0f3c2c",
-    "url": "/DSGN-8/static/css/2.b54a5f1c.chunk.css"
+    "revision": "07a4e693a387f00e0fec",
+    "url": "/DSGN-8/static/css/2.289a5f03.chunk.css"
   },
   {
-    "revision": "c52843b1965c67ac683f",
-    "url": "/DSGN-8/static/css/main.8009fab9.chunk.css"
+    "revision": "ad3008a4e07ac5d41765",
+    "url": "/DSGN-8/static/css/main.37fd4394.chunk.css"
   },
   {
-    "revision": "2d085e8f47c5dd0f3c2c",
-    "url": "/DSGN-8/static/js/2.16e89e2d.chunk.js"
+    "revision": "07a4e693a387f00e0fec",
+    "url": "/DSGN-8/static/js/2.bac3a249.chunk.js"
   },
   {
-    "revision": "c52843b1965c67ac683f",
-    "url": "/DSGN-8/static/js/main.52ee9426.chunk.js"
+    "revision": "ad3008a4e07ac5d41765",
+    "url": "/DSGN-8/static/js/main.68ff2471.chunk.js"
   },
   {
     "revision": "903c97a46077934c985d",
