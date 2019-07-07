@@ -1,5 +1,6 @@
 body {
 	margin: 0;
+	overflow-x: hidden;
 	font-family: "Quicksand", sans-serif;
 	font-size: 13px;
 	-webkit-font-smoothing: antialiased;
@@ -31,4 +32,11 @@ code {
 
 img {
 	max-width: 100%;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+	color: unset;
 }

@@ -7,10 +7,18 @@ const Header = () => {
 			<div className="header__logo-icons">
 				<h2 className="header__logo">DSGN</h2>
 				<div className="header__social-icons">
-					<i class="fab fa-facebook-f" />
-					<i class="fab fa-instagram" />
-					<i class="fab fa-twitter" />
-					<i class="fab fa-linkedin" />
+					<a href="/" className="header__social-icons__link">
+						<i className="fab fa-facebook-f" />
+					</a>
+					<a href="/" className="header__social-icons__link">
+						<i className="fab fa-instagram" />
+					</a>
+					<a href="/" className="header__social-icons__link">
+						<i className="fab fa-twitter" />
+					</a>
+					<a href="/" className="header__social-icons__link">
+						<i className="fab fa-linkedin" />
+					</a>
 				</div>
 			</div>
 			<Nav />

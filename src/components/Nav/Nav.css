@@ -1,0 +1,28 @@
+.menu__wrapper {
+	cursor: pointer;
+}
+
+.menu__text {
+	display: none;
+}
+
+@media (min-width: 768px) {
+	.menu__wrapper {
+		grid-column: 5;
+		text-align: left;
+		margin-left: 0em;
+		background: #101010;
+		color: white;
+		padding: 1em 2em;
+		height: 4em;
+		line-height: 2em;
+		font-size: 1.2em;
+	}
+
+	.menu__text {
+		display: inline-block;
+		text-transform: uppercase;
+		margin-left: 1em;
+		font-weight: 100;
+	}
+}

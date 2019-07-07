@@ -22,7 +22,7 @@ class BrandGallery extends Component {
 			{
 				id: 4,
 				url:
-					"https://cellvisionsltd.com/wp-content/uploads/2018/07/apple-logo-transparent.png"
+					"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/1024px-Apple_logo_black.svg.png"
 			},
 			{
 				id: 5,
@@ -47,6 +47,21 @@ class BrandGallery extends Component {
 				id: 9,
 				url:
 					"https://diylogodesigns.com/wp-content/uploads/2016/05/adidas-blue-logo-png-download.png"
+			},
+
+			{
+				id: 10,
+				url:
+					"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/NBC_logo.svg/1024px-NBC_logo.svg.png"
+			},
+			{
+				id: 11,
+				url: "https://www.topachat.com/images/picto/zz287.png"
+			},
+			{
+				id: 12,
+				url:
+					"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/1200px-NASA_logo.svg.png"
 			}
 		]
 	};
@@ -54,12 +69,11 @@ class BrandGallery extends Component {
 		return (
 			<div className="logo-gallery content-wrapper">
 				{this.state.images.map(img => (
-					<div className="logo-gallery__image-cont">
+					<div className="logo-gallery__image-cont" key={img.id}>
 						<img
 							className="logo-gallery__image-cont__image"
 							src={img.url}
 							alt=""
-							key={img.id}
 						/>
 					</div>
 				))}

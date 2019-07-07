@@ -25,7 +25,7 @@ const Footer = () => {
 					<p className="footer__section__text">www.freetemplate.com</p>
 					<p className="footer__section__text">tel. +48 123 456 79</p>
 				</div>
-				<div className="copyright">Copyright R DSGN free use!</div>
+				<div className="copyright">Copyright Ⓡ DSGN free use!</div>
 			</div>
 		</footer>
 	);

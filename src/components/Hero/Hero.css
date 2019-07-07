@@ -74,3 +74,10 @@
 .hero__show-more .hero__show-more__icon:first-child {
 	margin-bottom: -3px;
 }
+
+@media (min-width: 768px) {
+	.hero__goto-action {
+		font-size: 1.15em;
+		padding: 10px 36px;
+	}
+}

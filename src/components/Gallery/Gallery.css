@@ -24,6 +24,10 @@
 	transition: filter 0.15s ease-in-out, transform 0.3s ease-in-out;
 }
 
+.gallery > .gallery__image-wrapper:nth-child(9) ~ .gallery__image-wrapper {
+	display: none;
+}
+
 .gallery__image-wrapper:hover .gallery__image {
 	filter: saturate(1);
 	transform: scale(1.2);
@@ -44,13 +48,17 @@
 @media (min-width: 768px) {
 	.gallery {
 		display: grid;
-		grid-template-columns: repeat(6, 1fr);
+		grid-template-columns: repeat(8, 1fr);
 		grid-column: 1/4;
 	}
 
 	.gallery__image-wrapper {
 		width: 100%;
-		height: calc(100vw / 6);
+		height: calc(100vw / 8);
+	}
+
+	.gallery > .gallery__image-wrapper:nth-child(9) ~ .gallery__image-wrapper {
+		display: flex;
 	}
 
 	.gallery__image__eye-icon {
