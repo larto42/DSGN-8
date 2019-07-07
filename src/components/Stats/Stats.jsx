@@ -9,19 +9,19 @@ const Stats = () => {
 				className="projects-stat"
 				title="Big projects"
 				number={50}
-				description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, fugit?"
+				description="Our experience shows in projects we've made!"
 			/>
 			<StatItem
 				className="client-stat"
 				title="Clients"
 				number={35}
-				description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, nihil!"
+				description="Customer satisfaction is the most important for us. That's why we care about every detail."
 			/>
 			<StatItem
 				className="month-stat"
 				title="Months"
 				number={80}
-				description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, dolores."
+				description="Over 6 years of constant innovation makes us the best partner for your new project!"
 			/>
 		</div>
 	);

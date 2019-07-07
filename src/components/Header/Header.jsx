@@ -5,7 +5,9 @@ const Header = () => {
 	return (
 		<header className="header content-wrapper">
 			<div className="header__logo-icons">
-				<h2 className="header__logo">DSGN</h2>
+				<h2 className="header__logo">
+					<a href="/">DSGN</a>
+				</h2>
 				<div className="header__social-icons">
 					<a href="/" className="header__social-icons__link">
 						<i className="fab fa-facebook-f" />

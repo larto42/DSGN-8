@@ -5,10 +5,12 @@
 	"homepage": "http://larto42.github.io/DSGN-8",
 	"dependencies": {
 		"@bit/mui-org.material-ui.circular-progress": "^3.9.2",
+		"aos": "^2.3.4",
 		"react": "^16.8.6",
 		"react-dom": "^16.8.6",
 		"react-images": "^1.0.0",
-		"react-scripts": "3.0.1"
+		"react-scripts": "3.0.1",
+		"react-scrollable-anchor": "^0.6.1"
 	},
 	"scripts": {
 		"start": "react-scripts start",

@@ -6,11 +6,15 @@ const Hero = () => {
 	return (
 		<div className="hero content-wrapper grid-span-all">
 			<Title smallText="Need our help?" bigText="Top designers" />
-			<button className="hero__goto-action">Check us!</button>
-			<div className="hero__show-more">
-				<span className="hero__show-more__icon lnr lnr-chevron-down" />
-				<span className="hero__show-more__icon lnr lnr-chevron-down" />
-			</div>
+			<a href="#team">
+				<button className="hero__goto-action">Check us!</button>
+			</a>
+			<a href="#portfolio">
+				<div className="hero__show-more">
+					<span className="hero__show-more__icon lnr lnr-chevron-down" />
+					<span className="hero__show-more__icon lnr lnr-chevron-down" />
+				</div>
+			</a>
 			<div className="hero__background-image" />
 		</div>
 	);

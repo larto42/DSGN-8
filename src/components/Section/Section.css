@@ -44,5 +44,10 @@
 
 	.section-image__text {
 		grid-column: 2;
+		transition: letter-spacing 0.5s;
+	}
+
+	.section-image__text:hover {
+		letter-spacing: 2px;
 	}
 }
