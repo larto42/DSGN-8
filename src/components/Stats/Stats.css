@@ -18,6 +18,12 @@
 	justify-content: center;
 	margin: 20px;
 }
+
+.stat__circle__progress circle,
+.stat__circle__bg circle {
+	transition-duration: 3s !important;
+}
+
 .projects-stat h2,
 .projects-stat div:nth-child(1) {
 	color: #f34739;
