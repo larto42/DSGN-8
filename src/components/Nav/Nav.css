@@ -107,7 +107,7 @@
 	}
 
 	.menu__list {
-		position: inherit;
+		position: relative;
 		z-index: -1;
 		width: auto;
 		transform: translateY(-100%);
