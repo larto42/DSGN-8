@@ -6,8 +6,8 @@ const Hero = () => {
 	return (
 		<div className="hero content-wrapper grid-span-all">
 			<Title smallText="Need our help?" bigText="Top designers" />
-			<a href="#team">
-				<button className="hero__goto-action">Check us!</button>
+			<a href="#team" className="hero__goto-action">
+				Check us!
 			</a>
 			<a href="#portfolio">
 				<div className="hero__show-more">

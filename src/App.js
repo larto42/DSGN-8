@@ -23,7 +23,7 @@ function App() {
 			<Stats />
 			<ScrollableAnchor id="team">
 				<Section
-					image="https://images.unsplash.com/photo-1515965885361-f1e0095517ea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+					image="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
 					bigText="Our team"
 					smallText="Meet us!"
 				>
@@ -35,21 +35,21 @@ function App() {
 						animDirection="fade-right"
 					/>
 					<Card
-						image="https://images.unsplash.com/photo-1552699498-ec96cf4765ac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=715&q=80"
-						title="Olivia"
-						subTitle="Art director"
-						description="She is the art director with 8 years of professional experience."
-						animDirection="fade-left"
-					/>
-					<Card
 						image="https://images.unsplash.com/photo-1544723795-3fb6469f5b39?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=635&q=80"
 						title="Thomas"
 						subTitle="Software Engeneer"
 						description="He is the software engeneer with 5 years of professional experience"
-						animDirection="fade-right"
+						animDirection="fade-left"
 					/>
 					<Card
 						image="https://images.unsplash.com/photo-1550926781-93aef598b010?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+						title="Olivia"
+						subTitle="Art director"
+						description="She is the art director with 8 years of professional experience."
+						animDirection="fade-right"
+					/>
+					<Card
+						image="https://images.unsplash.com/photo-1555352820-ff70b8c513ac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80"
 						title="Taylor"
 						subTitle="CEO"
 						description="She is the boss in here."
@@ -66,14 +66,15 @@ function App() {
 					<Gallery />
 				</Section>
 			</ScrollableAnchor>
-			<Section
-				image="https://images.unsplash.com/photo-1528962862197-29c4f24ccc04?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
-				bigText="Brands"
-				smallText="We work for"
-			>
-				<BrandGallery />
-			</Section>
-
+			<ScrollableAnchor id="brands">
+				<Section
+					image="https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+					bigText="Brands"
+					smallText="We work for"
+				>
+					<BrandGallery />
+				</Section>
+			</ScrollableAnchor>
 			<Footer />
 		</div>
 	);
