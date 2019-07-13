@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/DSGN-8/static/css/main.387b841b.chunk.css",
-    "main.js": "/DSGN-8/static/js/main.a20d412f.chunk.js",
-    "main.js.map": "/DSGN-8/static/js/main.a20d412f.chunk.js.map",
+    "main.css": "/DSGN-8/static/css/main.ab2f67a4.chunk.css",
+    "main.js": "/DSGN-8/static/js/main.bd68d302.chunk.js",
+    "main.js.map": "/DSGN-8/static/js/main.bd68d302.chunk.js.map",
     "runtime~main.js": "/DSGN-8/static/js/runtime~main.1c3b8078.js",
     "runtime~main.js.map": "/DSGN-8/static/js/runtime~main.1c3b8078.js.map",
     "static/css/2.3288be07.chunk.css": "/DSGN-8/static/css/2.3288be07.chunk.css",
-    "static/js/2.bd08141a.chunk.js": "/DSGN-8/static/js/2.bd08141a.chunk.js",
-    "static/js/2.bd08141a.chunk.js.map": "/DSGN-8/static/js/2.bd08141a.chunk.js.map",
+    "static/js/2.52e4b0fa.chunk.js": "/DSGN-8/static/js/2.52e4b0fa.chunk.js",
+    "static/js/2.52e4b0fa.chunk.js.map": "/DSGN-8/static/js/2.52e4b0fa.chunk.js.map",
     "index.html": "/DSGN-8/index.html",
-    "precache-manifest.834b76fab336615eb561b6313902a5e6.js": "/DSGN-8/precache-manifest.834b76fab336615eb561b6313902a5e6.js",
+    "precache-manifest.58176ab8081cce998c89db7ab07040c5.js": "/DSGN-8/precache-manifest.58176ab8081cce998c89db7ab07040c5.js",
     "service-worker.js": "/DSGN-8/service-worker.js",
     "static/css/2.3288be07.chunk.css.map": "/DSGN-8/static/css/2.3288be07.chunk.css.map",
-    "static/css/main.387b841b.chunk.css.map": "/DSGN-8/static/css/main.387b841b.chunk.css.map",
+    "static/css/main.ab2f67a4.chunk.css.map": "/DSGN-8/static/css/main.ab2f67a4.chunk.css.map",
     "static/media/all.css": "/DSGN-8/static/media/fa-solid-900.ef3df984.eot"
   }
 }
