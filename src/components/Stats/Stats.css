@@ -24,6 +24,14 @@
 	transition-duration: 3s !important;
 }
 
+/* Turn off animations on mobile */
+@media (max-width: 767px) {
+	.stat__circle__progress circle,
+	.stat__circle__bg circle {
+		transition: none !important;
+	}
+}
+
 .projects-stat h2,
 .projects-stat div:nth-child(1) {
 	color: #f34739;

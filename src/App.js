@@ -14,7 +14,10 @@ import "aos/dist/aos.css";
 import ScrollableAnchor from "react-scrollable-anchor";
 
 function App() {
-	Aos.init();
+	// Init fade animations on desktop
+	Aos.init({
+		disable: () => window.innerWidth < 768
+	});
 
 	return (
 		<div className="App">
@@ -23,33 +26,33 @@ function App() {
 			<Stats />
 			<ScrollableAnchor id="team">
 				<Section
-					image="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+					image="/img/ourteam.jpg"
 					bigText="Our team"
 					smallText="Meet us!"
 				>
 					<Card
-						image="https://images.unsplash.com/photo-1542103749-8ef59b94f47e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+						image="/img/Adrianna.jpg"
 						title="Adrianna"
 						subTitle="Senior Graphic Designer"
 						description="She is the graphic designer with 3 years of professional experience."
 						animDirection="fade-right"
 					/>
 					<Card
-						image="https://images.unsplash.com/photo-1544723795-3fb6469f5b39?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=635&q=80"
+						image="/img/Thomas.jpg"
 						title="Thomas"
 						subTitle="Software Engeneer"
 						description="He is the software engeneer with 5 years of professional experience"
 						animDirection="fade-left"
 					/>
 					<Card
-						image="https://images.unsplash.com/photo-1550926781-93aef598b010?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+						image="/img/Olivia.jpg"
 						title="Olivia"
 						subTitle="Art director"
 						description="She is the art director with 8 years of professional experience."
 						animDirection="fade-right"
 					/>
 					<Card
-						image="https://images.unsplash.com/photo-1555352820-ff70b8c513ac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80"
+						image="/img/Taylor.jpg"
 						title="Taylor"
 						subTitle="CEO"
 						description="She is the boss in here."
@@ -59,7 +62,7 @@ function App() {
 			</ScrollableAnchor>
 			<ScrollableAnchor id="portfolio">
 				<Section
-					image="https://images.unsplash.com/photo-1453928582365-b6ad33cbcf64?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80"
+					image="/img/portfolio.jpg"
 					bigText="Portfolio"
 					smallText="Check our projects!"
 				>
@@ -68,7 +71,7 @@ function App() {
 			</ScrollableAnchor>
 			<ScrollableAnchor id="brands">
 				<Section
-					image="https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+					image="/img/brands.jpg"
 					bigText="Brands"
 					smallText="We work for"
 				>
