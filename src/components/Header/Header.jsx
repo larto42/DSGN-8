@@ -6,19 +6,24 @@ const Header = () => {
 		<header className="header content-wrapper">
 			<div className="header__logo-icons">
 				<h2 className="header__logo">
-					<a href="/">DSGN</a>
+					{/* eslint-disable-next-line */}
+					<a href="#">DSGN</a>
 				</h2>
 				<div className="header__social-icons">
-					<a href="/" className="header__social-icons__link">
+					{/* eslint-disable-next-line */}
+					<a href="#" className="header__social-icons__link">
 						<i className="fab fa-facebook-f" />
 					</a>
-					<a href="/" className="header__social-icons__link">
+					{/* eslint-disable-next-line */}
+					<a href="#" className="header__social-icons__link">
 						<i className="fab fa-instagram" />
 					</a>
-					<a href="/" className="header__social-icons__link">
+					{/* eslint-disable-next-line */}
+					<a href="#" className="header__social-icons__link">
 						<i className="fab fa-twitter" />
 					</a>
-					<a href="/" className="header__social-icons__link">
+					{/* eslint-disable-next-line */}
+					<a href="#" className="header__social-icons__link">
 						<i className="fab fa-linkedin" />
 					</a>
 				</div>
