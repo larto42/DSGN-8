@@ -2,6 +2,25 @@
 	text-align: center;
 }
 
+/* Styling gallery for mobile view */
+.react-images__positioner {
+	width: 100vw;
+}
+
+.react-images__dialog {
+	position: absolute;
+	top: 0;
+	height: 100vh;
+}
+
+.react-images__frame {
+	height: 100vh;
+}
+
+.react-images__track {
+	height: 100%;
+}
+
 /* Turn off animations on mobile */
 @media (max-width: 767px) {
 	[data-aos^="fade"],
