@@ -1,27 +1,47 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5a123f27503a3a306acbbdcdeb3cef80",
+    "revision": "dc218de48a16cf8bdf6aaaeff9965e31",
     "url": "/DSGN-8/index.html"
   },
   {
-    "revision": "a0a082f165d14510e05a",
+    "revision": "5bef6c8d893b9cf7322e",
     "url": "/DSGN-8/static/css/2.3288be07.chunk.css"
   },
   {
-    "revision": "a4456740bf8109e9feba",
-    "url": "/DSGN-8/static/css/main.8fbd573b.chunk.css"
+    "revision": "a7e7af07388e885bb957",
+    "url": "/DSGN-8/static/css/main.be770d01.chunk.css"
   },
   {
-    "revision": "a0a082f165d14510e05a",
-    "url": "/DSGN-8/static/js/2.52e4b0fa.chunk.js"
+    "revision": "5bef6c8d893b9cf7322e",
+    "url": "/DSGN-8/static/js/2.fd2d8803.chunk.js"
   },
   {
-    "revision": "a4456740bf8109e9feba",
-    "url": "/DSGN-8/static/js/main.ddcb5e8f.chunk.js"
+    "revision": "a7e7af07388e885bb957",
+    "url": "/DSGN-8/static/js/main.54ea6b45.chunk.js"
   },
   {
     "revision": "903c97a46077934c985d",
     "url": "/DSGN-8/static/js/runtime~main.1c3b8078.js"
+  },
+  {
+    "revision": "66bcc311535b9bf135c94b3c7a7ee212",
+    "url": "/DSGN-8/static/media/Adrianna.66bcc311.jpg"
+  },
+  {
+    "revision": "7def25549ac22e9d8708acc251ec117e",
+    "url": "/DSGN-8/static/media/Olivia.7def2554.jpg"
+  },
+  {
+    "revision": "90778a6b86d6259ef96f96533add8e25",
+    "url": "/DSGN-8/static/media/Taylor.90778a6b.jpg"
+  },
+  {
+    "revision": "3aa9b1a3faff8cd54c1cf4e655b7c377",
+    "url": "/DSGN-8/static/media/Thomas.3aa9b1a3.jpg"
+  },
+  {
+    "revision": "0071f1f22df0bd14d7c637d0f87f031d",
+    "url": "/DSGN-8/static/media/brands.0071f1f2.jpg"
   },
   {
     "revision": "03783c5172ee1ad128c576bf88fac168",
@@ -82,5 +102,17 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ef3df98419d143d9617fe163bf4edc0b",
     "url": "/DSGN-8/static/media/fa-solid-900.ef3df984.eot"
+  },
+  {
+    "revision": "a525b82db8a3f1868272bafffeb5a9d3",
+    "url": "/DSGN-8/static/media/hero.a525b82d.jpg"
+  },
+  {
+    "revision": "8672a2e5278414d848ddcd9f0146e1dd",
+    "url": "/DSGN-8/static/media/ourteam.8672a2e5.jpg"
+  },
+  {
+    "revision": "107cc1f8cb78bd213bfe254d843dc16a",
+    "url": "/DSGN-8/static/media/portfolio.107cc1f8.jpg"
   }
 ]);
