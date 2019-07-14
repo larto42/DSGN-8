@@ -18,7 +18,7 @@
 	padding-top: 75px;
 }
 .hero__background-image {
-	background: url("/img/hero.jpg") no-repeat;
+	background: url("../../img/hero.jpg") no-repeat;
 	background-size: auto;
 	background-size: cover;
 	background-position: center;

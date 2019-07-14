@@ -12,6 +12,13 @@ import Footer from "./components/Footer/Footer";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import ScrollableAnchor from "react-scrollable-anchor";
+import ourteam from "./img/ourteam.jpg";
+import adrianna from "./img/Adrianna.jpg";
+import thomas from "./img/Thomas.jpg";
+import olivia from "./img/Olivia.jpg";
+import taylor from "./img/Taylor.jpg";
+import portfolio from "./img/portfolio.jpg";
+import brands from "./img/brands.jpg";
 
 function App() {
 	// Init fade animations on desktop
@@ -25,34 +32,30 @@ function App() {
 			<Hero />
 			<Stats />
 			<ScrollableAnchor id="team">
-				<Section
-					image="/img/ourteam.jpg"
-					bigText="Our team"
-					smallText="Meet us!"
-				>
+				<Section image={ourteam} bigText="Our team" smallText="Meet us!">
 					<Card
-						image="/img/Adrianna.jpg"
+						image={adrianna}
 						title="Adrianna"
 						subTitle="Senior Graphic Designer"
 						description="She is the graphic designer with 3 years of professional experience."
 						animDirection="fade-right"
 					/>
 					<Card
-						image="/img/Thomas.jpg"
+						image={thomas}
 						title="Thomas"
 						subTitle="Software Engeneer"
 						description="He is the software engeneer with 5 years of professional experience"
 						animDirection="fade-left"
 					/>
 					<Card
-						image="/img/Olivia.jpg"
+						image={olivia}
 						title="Olivia"
 						subTitle="Art director"
 						description="She is the art director with 8 years of professional experience."
 						animDirection="fade-right"
 					/>
 					<Card
-						image="/img/Taylor.jpg"
+						image={taylor}
 						title="Taylor"
 						subTitle="CEO"
 						description="She is the boss in here."
@@ -62,7 +65,7 @@ function App() {
 			</ScrollableAnchor>
 			<ScrollableAnchor id="portfolio">
 				<Section
-					image="/img/portfolio.jpg"
+					image={portfolio}
 					bigText="Portfolio"
 					smallText="Check our projects!"
 				>
@@ -70,11 +73,7 @@ function App() {
 				</Section>
 			</ScrollableAnchor>
 			<ScrollableAnchor id="brands">
-				<Section
-					image="/img/brands.jpg"
-					bigText="Brands"
-					smallText="We work for"
-				>
+				<Section image={brands} bigText="Brands" smallText="We work for">
 					<BrandGallery />
 				</Section>
 			</ScrollableAnchor>
