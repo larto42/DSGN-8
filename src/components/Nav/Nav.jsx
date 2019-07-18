@@ -10,7 +10,10 @@ const Nav = () => {
 
 	return (
 		<nav className="menu__wrapper" onClick={toogleMenu}>
-			<button className={"menu__button" + (isOpen ? " opened" : "")}>
+			<button
+				className={"menu__button" + (isOpen ? " opened" : "")}
+				aria-expanded={isOpen ? "true" : "false"}
+			>
 				<i className="menu__icon_default fas fa-bars" />
 				<i className="menu__icon_opened fas fa-times" />
 				<span className="menu__text">Menu</span>

@@ -138,6 +138,7 @@ class Gallery extends Component {
 				/>
 				{this.state.images.map(img => (
 					<div
+						tabIndex="0"
 						className="gallery__image-wrapper"
 						onClick={() => this.toggleModal(img.id)}
 						key={img.id}
