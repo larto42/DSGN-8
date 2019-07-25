@@ -26,6 +26,37 @@ function App() {
 		disable: () => window.innerWidth < 768
 	});
 
+	const team = [
+		{
+			name: "Adrianna",
+			position: "Senior Graphic Designer",
+			description: "She is the graphic designer with 3 years of professional experience.",
+			animationClass: "fade-right",
+			image: adrianna
+		},
+		{
+			name: "Thomas",
+			position: "Software Engeneer",
+			description: "He is the software engeneer with 5 years of professional experience.",
+			animationClass: "fade-left",
+			image: thomas
+		},
+		{
+			name: "Olivia",
+			position: "Art director",
+			description: "She is the art director with 8 years of professional experience.",
+			animationClass: "fade-right",
+			image: olivia
+		},
+		{
+			name: "Taylor",
+			position: "CEO",
+			description: "She is the boss in here.",
+			animationClass: "fade-left",
+			image: taylor
+		},
+	]
+
 	return (
 		<div className="App">
 			<Header />
@@ -33,34 +64,16 @@ function App() {
 			<Stats />
 			<ScrollableAnchor id="team">
 				<Section image={ourteam} bigText="Our team" smallText="Meet us!">
-					<Card
-						image={adrianna}
-						title="Adrianna"
-						subTitle="Senior Graphic Designer"
-						description="She is the graphic designer with 3 years of professional experience."
-						animDirection="fade-right"
-					/>
-					<Card
-						image={thomas}
-						title="Thomas"
-						subTitle="Software Engeneer"
-						description="He is the software engeneer with 5 years of professional experience"
-						animDirection="fade-left"
-					/>
-					<Card
-						image={olivia}
-						title="Olivia"
-						subTitle="Art director"
-						description="She is the art director with 8 years of professional experience."
-						animDirection="fade-right"
-					/>
-					<Card
-						image={taylor}
-						title="Taylor"
-						subTitle="CEO"
-						description="She is the boss in here."
-						animDirection="fade-left"
-					/>
+					{team.map((item, index) => 
+						<Card
+							key={index}
+							image={item.image}
+							title={item.name}
+							subTitle={item.position}
+							description={item.description}
+							animDirection={item.animationClass}
+						/>
+					)}
 				</Section>
 			</ScrollableAnchor>
 			<ScrollableAnchor id="portfolio">
