@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9c6e9e2650977ca627476092f0b35028",
+    "revision": "db6c124cbbfa455f61b08d88252f7951",
     "url": "/DSGN-8/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/DSGN-8/static/css/2.3288be07.chunk.css"
   },
   {
-    "revision": "c7085825a217065e612f",
-    "url": "/DSGN-8/static/css/main.545d9fb6.chunk.css"
+    "revision": "83a36fd0a7e08a5ed0cc",
+    "url": "/DSGN-8/static/css/main.3d6a4958.chunk.css"
   },
   {
     "revision": "5bef6c8d893b9cf7322e",
     "url": "/DSGN-8/static/js/2.fd2d8803.chunk.js"
   },
   {
-    "revision": "c7085825a217065e612f",
-    "url": "/DSGN-8/static/js/main.e31e3a5d.chunk.js"
+    "revision": "83a36fd0a7e08a5ed0cc",
+    "url": "/DSGN-8/static/js/main.41b663b5.chunk.js"
   },
   {
     "revision": "903c97a46077934c985d",
