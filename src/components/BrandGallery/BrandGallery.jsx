@@ -83,18 +83,3 @@ class BrandGallery extends Component {
 }
 
 export default BrandGallery;
-
-// const BrandLogo = props => {
-// 	const { image } = props;
-// 	return (
-// 		<div className="logo">
-// 			<img className="logo__image" src={image} alt="" />
-// 		</div>
-// 	);
-// };
-
-// BrandLogo.propTypes = {
-// 	image: PropTypes.string.isRequired
-// };
-
-// export default BrandLogo;
