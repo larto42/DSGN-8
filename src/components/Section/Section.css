@@ -23,6 +23,7 @@
 	outline-offset: -2em;
 	color: white;
 	padding: 2.3em;
+	cursor: default;
 }
 
 .section-image__backdrop {
