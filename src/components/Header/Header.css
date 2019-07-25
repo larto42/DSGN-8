@@ -27,6 +27,10 @@
 
 @media (min-width: 768px) {
 	.header {
+		position: fixed;
+		width: 100%;
+		background: white;
+		z-index: 1;
 		grid-column: 1/4;
 		display: grid;
 		grid-template-columns: 1fr 1fr 6fr 2fr 3fr;

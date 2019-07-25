@@ -76,6 +76,9 @@
 }
 
 @media (min-width: 768px) {
+	.hero {
+		margin-top: 62px;
+	}
 	.hero__goto-action {
 		font-size: 1.15em;
 		padding: 10px 36px;
