@@ -36,8 +36,8 @@ function App() {
 		},
 		{
 			name: "Thomas",
-			position: "Software Engeneer",
-			description: "He is the software engeneer with 5 years of professional experience.",
+			position: "Software Engineer",
+			description: "He is the software engineer with 5 years of professional experience.",
 			animationClass: "fade-left",
 			image: thomas
 		},
